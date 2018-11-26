@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @drug.name %>
+</p>
+
+<p>
+  <strong>Effect:</strong>
+  <%= @drug.effect %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @drug.color %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @drug.price %>
+</p>
+
+<%= link_to 'Edit', edit_drug_path(@drug) %> |
+<%= link_to 'Back', drugs_path %>
